@@ -16,21 +16,29 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Bee
 .rfw-class.bee .widget_dock {
 	margin: 7px auto 0;	
 }
-.rfw-class.bee .widget_dock .bx-wrapper{
+.rfw-class.bee .widget_dock .bx-wrapper,
+.rfw-class.bee .widget_dock .rfw_list{
 	padding: 10px;
 	box-shadow: none;	
 }
+.rfw-class.bee .widget_dock,
 .rfw-class.bee .widget_dock .bx-viewport{
 	padding: 10px 0;
 	font-family: Arial, Helvetica, sans-serif; 	
 }
+.rfw-class.bee .widget_dock .rfw_dock.rfw_list li {
+	float: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.rfw-class.bee .widget_dock .rfw_dock li > a,
 .rfw-class.bee .widget_dock .bx-viewport .rfw_dock li > a {
 	background-color: #ff6600;
 	width: 100%;
 	float: left;
 	border-bottom: 8px solid #FCD000;
 }
-.rfw-class.bee .widget_dock .bx-viewport .rfw_dock a h3.entry-title,
+.rfw-class.bee .widget_dock .rfw_dock a h3.entry-title,
 .rfw-class.bee .widget_dock .bx-viewport li > div.feed_img h3.entry-title{
 	padding: 10px 8px;
 	margin:0;
@@ -39,6 +47,7 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Bee
 	color: #000;
 	
 }
+.rfw-class.bee .widget_dock li > div.text_div,
 .rfw-class.bee .widget_dock .bx-viewport li > div.text_div {
 	background-color: #303030;
     color: #fff;

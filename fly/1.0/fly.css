@@ -1,11 +1,11 @@
 /*
-Form Name: fly
+Form Name: Fly
 Form URI: https://github.com/uxglow/rss-feed-widget/blob/master/fly/1.0/fly.css
 Author: UX Glow
 Author URI: http://uxglow.com/
 Description: __desc__
 Version: 1.0
-Tags: Contact Form 7, fly
+Tags: RSS Feed Widget, RSS Feed Widget Styles, Fly
 */
 
 .rfw-class.fly *, 
@@ -16,26 +16,36 @@ Tags: Contact Form 7, fly
 .rfw-class.fly .widget_dock {
 	margin: 7px auto 0;	
 }
-.rfw-class.fly .widget_dock .bx-wrapper{
+.rfw-class.fly .widget_dock .bx-wrapper,
+.rfw-class.fly .widget_dock .rfw_list{
 	padding: 10px;
 	box-shadow: none;	
 }
+.rfw-class.fly .widget_dock,
 .rfw-class.fly .widget_dock .bx-viewport{
 	padding: 10px 0;
 	font-family: Arial, Helvetica, sans-serif; 	
 }
+.rfw-class.fly .widget_dock .rfw_dock li > a,
 .rfw-class.fly .widget_dock .bx-viewport .rfw_dock li > a {
 	border-left: 5px solid #DC4537;
 	background-color: #FCD000;
 	width: 100%;
 	float: left;
 }
-.rfw-class.fly .widget_dock .bx-viewport .rfw_dock h3{
-	padding: 6px 8px;
+.rfw-class.fly .widget_dock .rfw_dock.rfw_list li {
+	float: left;
+    margin-bottom: 20px;
+    width: 100%;	
+}
+.rfw-class.fly .widget_dock .rfw_dock a h3.entry-title,
+.rfw-class.fly .widget_dock .bx-viewport .rfw_dock h3.entry-title{
+	padding: 10px 8px;
 	margin:0;
 	line-height: 22px;
 	text-align: left;
 }
+.rfw-class.fly .widget_dock li > div.text_div,
 .rfw-class.fly .widget_dock .bx-viewport li > div.text_div {
 	background-color: #4e9c99;
     color: #fff;
@@ -45,8 +55,9 @@ Tags: Contact Form 7, fly
     padding: 10px;
     width: 100%;	
 }
-.rfw-class.fly .widget_dock .bx-viewport li > div.text_div img{
-	margin-bottom: 10px;	
+.rfw-class.fly .widget_dock li > div.feed_img img,
+.rfw-class.fly .widget_dock .bx-viewport li > div.feed_img img{
+	margin-bottom: 0px;	
 }
 .rfw-class.fly .bx-wrapper .bx-pager.bx-default-pager a{
 	background-color: #FCD000;
