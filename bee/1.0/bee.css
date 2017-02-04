@@ -1,0 +1,69 @@
+/*
+Style Name: Bee
+Form URI: https://github.com/uxglow/rss-feed-widget/blob/master/bee/1.0/bee.css
+Author: UX Glow
+Author URI: http://uxglow.com/
+Description: __desc__
+Version: 1.0
+Tags: RSS Feed Widget, RSS Feed Widget Styles, Bee
+*/
+
+.rfw-class.bee *, 
+.rfw-class.bee *::after, 
+.rfw-class.bee *::before{
+	box-sizing: border-box  !important;	
+}
+.rfw-class.bee .widget_dock {
+	margin: 7px auto 0;	
+}
+.rfw-class.bee .widget_dock .bx-wrapper{
+	padding: 10px;
+	box-shadow: none;	
+}
+.rfw-class.bee .widget_dock .bx-viewport{
+	padding: 10px 0;
+	font-family: Arial, Helvetica, sans-serif; 	
+}
+.rfw-class.bee .widget_dock .bx-viewport .rfw_dock li > a {
+	background-color: #ff6600;
+	width: 100%;
+	float: left;
+	border-bottom: 8px solid #FCD000;
+}
+.rfw-class.bee .widget_dock .bx-viewport .rfw_dock a h3.entry-title,
+.rfw-class.bee .widget_dock .bx-viewport li > div.feed_img h3.entry-title{
+	padding: 10px 8px;
+	margin:0;
+	line-height: 22px;
+	text-align: left;
+	color: #000;
+	
+}
+.rfw-class.bee .widget_dock .bx-viewport li > div.text_div {
+	background-color: #303030;
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.rfw-class.bee .widget_dock .bx-viewport li > div.feed_img img{	
+	border-bottom: 8px solid #FCD000;	
+}
+.rfw-class.bee .bx-wrapper .bx-pager.bx-default-pager a{
+	background-color: #FCD000;
+	border: 2px solid #4E9C99;	
+}
+.rfw-class.bee .bx-wrapper .bx-pager.bx-default-pager a.active{
+	background-color: #DC4537;
+	border: 2px solid #4E9C99;
+}
+.rfw-class.bee .text_div > a {
+  color: #fcd000;
+  font-size: 16px;
+  font-weight: bold;
+}
+.rfw-class.bee .text_div > a:hover{
+	text-decoration: underline;	
+}
