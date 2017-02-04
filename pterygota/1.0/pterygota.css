@@ -5,7 +5,8 @@ Author: UX Glow
 Author URI: http://uxglow.com/
 Description: __desc__
 Version: 1.0
-Tags: RSS Feed Widget, Pterygota
+Tags: rss feed widget, pterygota
+
 */
 
 .rfw-class.pterygota *, 
@@ -30,7 +31,7 @@ Tags: RSS Feed Widget, Pterygota
 	float: left;
 }
 .rfw-class.pterygota .widget_dock .bx-viewport .rfw_dock h3{
-	padding: 6px 8px;
+	padding: 10px 8px;
 	margin:0;
 	line-height: 22px;
 	text-align: center;
