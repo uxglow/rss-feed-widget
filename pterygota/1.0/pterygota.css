@@ -18,13 +18,15 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Pterygota
 }
 .rfw-class.pterygota .widget_dock .bx-wrapper,
 .rfw-class.pterygota .widget_dock .rfw_list{
-	padding: 10px;
+	padding: 0px;
 	box-shadow: none;	
+	border: 0;
 }
 .rfw-class.pterygota .widget_dock,
 .rfw-class.pterygota .widget_dock .bx-viewport{
 	padding: 10px 0;
 	font-family: Arial, Helvetica, sans-serif; 	
+	width: 100%;
 }
 .rfw-class.pterygota .widget_dock .rfw_dock li > a,
 .rfw-class.pterygota .widget_dock .bx-viewport .rfw_dock li > a {
@@ -39,6 +41,8 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Pterygota
 }
 .rfw-class.pterygota .widget_dock .rfw_dock a h3.entry-title,
 .rfw-class.pterygota .widget_dock .bx-viewport .rfw_dock h3{
+	background-color: #ffb499;
+	box-shadow:none;
 	padding: 10px 8px;
 	margin:0;
 	line-height: 22px;

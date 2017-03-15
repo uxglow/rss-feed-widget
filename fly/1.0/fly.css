@@ -18,12 +18,14 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Fly
 }
 .rfw-class.fly .widget_dock .bx-wrapper,
 .rfw-class.fly .widget_dock .rfw_list{
-	padding: 10px;
-	box-shadow: none;	
+	padding: 0px;
+	box-shadow: none;
+	border:0;	
 }
 .rfw-class.fly .widget_dock,
 .rfw-class.fly .widget_dock .bx-viewport{
 	padding: 10px 0;
+	width: 100%;
 	font-family: Arial, Helvetica, sans-serif; 	
 }
 .rfw-class.fly .widget_dock .rfw_dock li > a,
@@ -39,11 +41,13 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Fly
     width: 100%;	
 }
 .rfw-class.fly .widget_dock .rfw_dock a h3.entry-title,
-.rfw-class.fly .widget_dock .bx-viewport .rfw_dock h3.entry-title{
+.rfw-class.fly .widget_dock .bx-viewport .rfw_dock h3{
+	background-color: #FCD000;
 	padding: 10px 8px;
 	margin:0;
 	line-height: 22px;
 	text-align: left;
+	box-shadow:none;
 }
 .rfw-class.fly .widget_dock li > div.text_div,
 .rfw-class.fly .widget_dock .bx-viewport li > div.text_div {
