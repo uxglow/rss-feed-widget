@@ -1,7 +1,7 @@
 /*
 Style Name: Bug
 Form URI: https://github.com/uxglow/rss-feed-widget/blob/master/bug/1.0/bug.css
-Author: UX Glow, Fahad Mahmood, Aqib Raza
+Author: UX Glow
 Author URI: http://uxglow.com/
 Description: __desc__
 Version: 1.0
@@ -14,7 +14,9 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Bug
 	box-sizing: border-box  !important;	
 }
 .rfw-class.bug .widget_dock {
-	margin: 7px auto 0;	
+	margin: 0px auto;
+	width: 100%;
+	max-width: 480px;	
 }
 .rfw-class.bug .widget_dock .bx-wrapper,
 .rfw-class.bug .widget_dock .rfw_list{
@@ -24,10 +26,10 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Bug
 	box-shadow: none;
 		
 }
-/* List View Style*/
-/*.rfw-class.bug .widget_dock .rfw_list{ 
-	padding: 10px; 
-}*/
+ /*List View Style*/
+.rfw-class.bug .widget_dock .rfw_list{ 
+	padding: 0px; 
+}
 .rfw-class.bug .widget_dock,
 .rfw-class.bug .widget_dock .bx-viewport{
 	font-family: Arial, Helvetica, sans-serif; 	
@@ -45,6 +47,7 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Bug
 }
 .rfw-class.bug .widget_dock .rfw_dock a h3.entry-title,
 .rfw-class.bug .widget_dock .bx-viewport .rfw_dock a h3.entry-title{
+	background-color: #000;
 	border-image: linear-gradient(to right, rgb(139, 191, 64) 25%, rgb(230, 27, 33) 25%, rgb(230, 27, 33) 50%, rgb(124, 196, 236) 50%, rgb(124, 196, 236) 75%, rgb(254, 181, 17) 75%);
   	border-image-slice: 1;
 	border-image-width: 0px 0px 5px 0px;
