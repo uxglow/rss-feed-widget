@@ -1,7 +1,7 @@
 /*
 Style Name: Bee
 Form URI: https://github.com/uxglow/rss-feed-widget/blob/master/bee/1.0/bee.css
-Author: UX Glow, Fahad Mahmood, Aqib Raza
+Author: UX Glow
 Author URI: http://uxglow.com/
 Description: __desc__
 Version: 1.0
@@ -14,6 +14,14 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Bee
 	box-sizing: border-box  !important;	
 }
 .rfw-class.bee .widget_dock {
+
+	margin: 0px auto;
+	width: 100%;
+	max-width: 480px;	
+}
+.rfw-class.bee .widget_dock .bx-wrapper,
+.rfw-class.bee .widget_dock .rfw_list{
+	padding: 0px;
 	margin: 0;	
 }
 .rfw-class.bee .widget_dock .bx-wrapper,
@@ -43,9 +51,14 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Bee
 	float: left;
 }
 .rfw-class.bee .widget_dock .rfw_dock a h3.entry-title,
+
+.rfw-class.bee .widget_dock .bx-viewport li > div.feed_img h3.entry-title{
+	background-color: #ff6600;
+
 .rfw-class.bee .widget_dock .bx-viewport li > div.feed_img h3{
 	background-color: #ff6600;
 	box-shadow:none;
+
 	padding: 10px 8px;
 	margin:0;
 	line-height: 22px;

@@ -1,7 +1,7 @@
 /*
 Style Name: Pterygota
 Form URI: https://github.com/uxglow/rss-feed-widget/blob/master/pterygota/1.0/pterygota.css
-Author: UX Glow, Fahad Mahmood, Aqib Raza
+Author: UX Glow
 Author URI: http://uxglow.com/
 Description: __desc__
 Version: 1.0
@@ -14,11 +14,15 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Pterygota
 	box-sizing: border-box  !important;	
 }
 .rfw-class.pterygota .widget_dock {
-	margin: 7px auto 0;	
+	margin: 7px auto 0;
+	width:100%;
+	max-width:480px;	
 }
 .rfw-class.pterygota .widget_dock .bx-wrapper,
 .rfw-class.pterygota .widget_dock .rfw_list{
 	padding: 0px;
+	box-shadow: none;
+	border:0;	
 	box-shadow: none;	
 	border: 0;
 }

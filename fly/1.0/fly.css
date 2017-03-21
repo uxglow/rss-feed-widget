@@ -1,7 +1,7 @@
 /*
 Form Name: Fly
 Form URI: https://github.com/uxglow/rss-feed-widget/blob/master/fly/1.0/fly.css
-Author: UX Glow, Fahad Mahmood, Aqib Raza
+Author: UX Glow
 Author URI: http://uxglow.com/
 Description: __desc__
 Version: 1.0
@@ -14,7 +14,9 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Fly
 	box-sizing: border-box  !important;	
 }
 .rfw-class.fly .widget_dock {
-	margin: 7px auto 0;	
+	margin: 0px auto;
+	width: 100%;
+	max-width: 480px;	
 }
 .rfw-class.fly .widget_dock .bx-wrapper,
 .rfw-class.fly .widget_dock .rfw_list{
@@ -41,6 +43,9 @@ Tags: RSS Feed Widget, RSS Feed Widget Styles, Fly
     width: 100%;	
 }
 .rfw-class.fly .widget_dock .rfw_dock a h3.entry-title,
+
+.rfw-class.fly .widget_dock .bx-viewport .rfw_dock h3.entry-title{
+
 .rfw-class.fly .widget_dock .bx-viewport .rfw_dock h3{
 	background-color: #FCD000;
 	padding: 10px 8px;
